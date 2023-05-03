@@ -3,4 +3,6 @@ resource "aws_instance" "atlantis_ec2" {
   instance_type = "t2.micro"
 }
 resource "null_resource" "example" {
- }
+}
+resource "null_resource" "test" {
+}
