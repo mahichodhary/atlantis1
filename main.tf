@@ -7,3 +7,11 @@ resource "null_resource" "example" {
 resource "null_resource" "test" {
 }
 
+resource "aws_s3_bucket" "my-tf-test-bucket" {
+  bucket = "my-tf-test-bucket"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
