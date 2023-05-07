@@ -4,6 +4,5 @@ resource "aws_instance" "atlantis_ec2" {
 }
 resource "null_resource" "example" {
 }
-resource "null_resource" "test" {
-}
+
 
