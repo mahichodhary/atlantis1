@@ -6,4 +6,6 @@ resource "null_resource" "example" {
 }
 resource "null_resource" "test" {
 }
+esource "null_resource" "test1" {
+}
 
